@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="GiveIndia testing(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://en.wikipedia.org/wiki/Selenium"/>
+    <classes>
+      <class name="GiveIndia.pdflinks">
+        <methods>
+          <include name="opendriver"/>
+          <include name="search"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- GiveIndia.pdflinks -->
+    </classes>
+  </test> <!-- GiveIndia testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

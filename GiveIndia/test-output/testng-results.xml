@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="11" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Selenium - Wikipedia-200]]>
+    </line>
+    <line>
+      <![CDATA[Validating Title]]>
+    </line>
+    <line>
+      <![CDATA[Validating Externallinks]]>
+    </line>
+    <line>
+      <![CDATA[Validating Oxygen Externallinks]]>
+    </line>
+    <line>
+      <![CDATA[ Validating featured article]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21637" started-at="2019-09-19T12:34:41Z" finished-at="2019-09-19T12:35:02Z">
+    <groups>
+    </groups>
+    <test name="GiveIndia testing" duration-ms="21637" started-at="2019-09-19T12:34:41Z" finished-at="2019-09-19T12:35:02Z">
+      <class name="GiveIndia.Pagevalidation">
+        <test-method status="PASS" signature="TitleValidation()[pri:1, instance:GiveIndia.Pagevalidation@11758f2a]" name="TitleValidation" duration-ms="10" started-at="2019-09-19T12:34:45Z" finished-at="2019-09-19T12:34:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating Title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TitleValidation -->
+        <test-method status="PASS" signature="ExternallinksValidation()[pri:2, instance:GiveIndia.Pagevalidation@11758f2a]" name="ExternallinksValidation" duration-ms="5192" started-at="2019-09-19T12:34:45Z" finished-at="2019-09-19T12:34:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating Externallinks]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ExternallinksValidation -->
+        <test-method status="PASS" signature="OxygenlinksValidation()[pri:3, instance:GiveIndia.Pagevalidation@11758f2a]" name="OxygenlinksValidation" duration-ms="3942" started-at="2019-09-19T12:34:50Z" finished-at="2019-09-19T12:34:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating Oxygen Externallinks]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OxygenlinksValidation -->
+        <test-method status="PASS" signature="Oxygenlinksfeaturedarticle()[pri:4, instance:GiveIndia.Pagevalidation@11758f2a]" name="Oxygenlinksfeaturedarticle" duration-ms="725" started-at="2019-09-19T12:34:54Z" finished-at="2019-09-19T12:34:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ Validating featured article]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Oxygenlinksfeaturedarticle -->
+      </class> <!-- GiveIndia.Pagevalidation -->
+      <class name="GiveIndia.GetUrl">
+        <test-method status="PASS" signature="opendriver(java.lang.String)[pri:0, instance:GiveIndia.GetUrl@612679d6]" name="opendriver" is-config="true" duration-ms="2299" started-at="2019-09-19T12:34:41Z" finished-at="2019-09-19T12:34:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opendriver -->
+        <test-method status="PASS" signature="Url(java.lang.String)[pri:1, instance:GiveIndia.GetUrl@612679d6]" name="Url" duration-ms="1823" started-at="2019-09-19T12:34:43Z" finished-at="2019-09-19T12:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en.wikipedia.org/wiki/Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Selenium - Wikipedia-200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:GiveIndia.GetUrl@612679d6]" name="terminateBrowser" is-config="true" duration-ms="164" started-at="2019-09-19T12:35:02Z" finished-at="2019-09-19T12:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- GiveIndia.GetUrl -->
+      <class name="GiveIndia.pdflinks">
+        <test-method status="PASS" signature="GetPdfUrl()[pri:5, instance:GiveIndia.pdflinks@e720b71]" name="GetPdfUrl" duration-ms="4035" started-at="2019-09-19T12:34:55Z" finished-at="2019-09-19T12:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetPdfUrl -->
+        <test-method status="PASS" signature="search()[pri:6, instance:GiveIndia.pdflinks@e720b71]" name="search" duration-ms="3419" started-at="2019-09-19T12:34:59Z" finished-at="2019-09-19T12:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- GiveIndia.pdflinks -->
+    </test> <!-- GiveIndia testing -->
+  </suite> <!-- Suite -->
+</testng-results>
